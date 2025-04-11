@@ -31,7 +31,7 @@ export function Welcome() {
       >
         <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
           {/* Logo */}
-          <div className="text-4xl font-bold text-white-800">
+          <div className="text-4xl font-bold text-800 text-gray-700 hover:text-black-500 transition-colors">
           👤NuiTech
           </div>
           {/* Navigation Links */}
