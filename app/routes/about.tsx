@@ -147,17 +147,17 @@ export default function About() {
     {
       name: "Sanjeev",
       role: "Fullstack Developer",
-      image: "/team/sanjeev.jpg"
+      image: "/public/team-1.jpg"
     },
     {
       name: "Karishma Upadhyay",
       role: "Fullstack Developer",
-      image: "/team/karishma.jpg"
+      image: "/public/team-2.jpg"
     },
     {
       name: "Mohit Kumar",
       role: "Graphics Designer",
-      image: "/team/mohit.jpg"
+      image: "/public/team-3.jpg"
     }
   ];
 
