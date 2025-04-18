@@ -55,7 +55,7 @@ export function Welcome() {
             </li>
             <li>
               <Link
-                to="/services"
+                to="/service"
                 className="text-gray-700 hover:text-black-500 transition-colors"
               >
                 Service
