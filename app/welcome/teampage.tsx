@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
-import { Link } from 'react-router';
+import { Link } from 'react-router-dom';
+import { useState } from 'react';
 import { FaLinkedin, FaTwitter, FaEnvelope } from 'react-icons/fa';
 
 export default function TeamPage() {
@@ -108,7 +109,7 @@ export default function TeamPage() {
             <Link to="/about" className="text-white hover:text-gray-300 transition-colors">
               About
             </Link>
-            <Link to="/services" className="text-white hover:text-gray-300 transition-colors">
+            <Link to="/service" className="text-white hover:text-gray-300 transition-colors">
               Services
             </Link>
             <Link to="/blog" className="text-white hover:text-gray-300 transition-colors">

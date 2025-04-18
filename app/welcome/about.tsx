@@ -17,7 +17,7 @@ export default function About() {
             <div className="flex items-center gap-6">
               <Link to="/" className="text-white hover:text-[#00B4D8] transition">Home</Link>
               <Link to="/about" className="text-white hover:text-[#00B4D8] transition">About</Link>
-              <Link to="/services" className="text-white hover:text-[#00B4D8] transition">Services</Link>
+              <Link to="/service" className="text-white hover:text-[#00B4D8] transition">Services</Link>
               <Link to="/blog" className="text-white hover:text-[#00B4D8] transition">Blog</Link>
               <Link to="/life-with-nuitech" className="text-white hover:text-[#00B4D8] transition">Life With Nuitech</Link>
               <div className="relative group">

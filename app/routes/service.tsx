@@ -82,7 +82,7 @@ export default function Service() {
         <div 
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: "url('/public/carousel-2.jpg')",
+            backgroundImage: "url('/carousel-2.jpg')",
           }}
         >
           {/* Dark overlay */}
