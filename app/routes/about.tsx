@@ -13,7 +13,7 @@ export function meta() {
 }
 
 export default function About() {
-  const [isPagesDropdownOpen, setIsPagesDropdownOpen] = useState(false);
+  const [isPagesDropdownOpen, setIsPagesDropdownOpen] = useState(false); 
 
   const togglePagesDropdown = () => {
     setIsPagesDropdownOpen(!isPagesDropdownOpen);
