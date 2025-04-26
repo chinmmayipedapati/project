@@ -509,6 +509,7 @@ export default function Home() {
                 <div>
                   <label className="block mb-2 text-white">Select A Service</label>
                   <select className="w-full p-3 border border-gray-700 rounded-md bg-gray-700 text-white">
+                    <option>Select A Service</option>
                     <option>Website Development</option>
                     <option>Digital Marketing</option>
                     <option>App Development</option>
@@ -583,7 +584,10 @@ export default function Home() {
               transition={{ duration: 0.5 }}
               className="bg-gray-800 rounded-lg overflow-hidden shadow-lg"
             >
-              <div className="h-48 bg-gray-700"></div>
+              <img 
+                src="/public/blog-1.jpg"
+                className="w-full h-48 object-cover"
+              />
               <div className="p-6">
                 <div className="flex items-center text-sm text-gray-400 mb-2">
                   <span className="bg-[#00B4D8] text-white px-3 py-1 rounded-full mr-2">Web Design</span>

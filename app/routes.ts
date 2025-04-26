@@ -8,7 +8,8 @@ const routes: Route[] = [
   { path: "about", file: "routes/about.tsx" },
   { path: "team", file: "routes/team.tsx" },
   { path: "service", file: "routes/service.tsx" },
-  { path: "contact", file: "contact/Contact.tsx" }
+  { path: "contact", file: "contact/Contact.tsx" },
+  { path: "blog", file: "blog/blog.tsx" }
 ];
 
 export default routes;
