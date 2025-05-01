@@ -131,9 +131,9 @@ export default function Blog() {
       {/* Blog Section */}
       <section className="blog-section">
         <div className="container">
-          <div className="blog-grid">
-            {/* Main Content */}
-            <div className="blog-main">
+          <div className="blog-layout">
+            {/* Left Side Content */}
+            <div className="blog-left">
               {/* Blog Post */}
               <div className="blog-post">
                 <div className="blog-post-image">
@@ -181,8 +181,11 @@ export default function Blog() {
               </div>
             </div>
 
-            {/* Sidebar */}
-            <div className="blog-sidebar">
+            {/* Middle Space */}
+            <div className="blog-middle-space"></div>
+
+            {/* Right Side Content */}
+            <div className="blog-right">
               {/* Categories */}
               <div className="blog-widget">
                 <h3 className="blog-widget-title">Categories</h3>
