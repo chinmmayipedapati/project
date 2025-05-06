@@ -9,7 +9,8 @@ const routes: Route[] = [
   { path: "team", file: "routes/team.tsx" },
   { path: "service", file: "routes/service.tsx" },
   { path: "contact", file: "contact/Contact.tsx" },
-  { path: "blog", file: "blog/blog.tsx" }
+  { path: "blog", file: "blog/blog.tsx" },
+  { path: "pricing", file: "pricing/pricing.tsx" },
 ];
 
 export default routes;
