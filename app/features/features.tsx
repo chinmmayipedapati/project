@@ -131,6 +131,15 @@ export default function Features() {
           <div className="text-center mb-16">
             <h5 className="text-[#00B4D8] text-lg uppercase mb-4">Why Choose Us</h5>
             <h2 className="text-4xl font-bold text-white mb-8">We Are Here to Grow Your Business Exponentially</h2>
+            
+            {/* Feature Image */}
+            <div className="w-full max-w-4xl mx-auto mb-16">
+              <img 
+                src="/public/feature.jpg"
+                alt="Business Growth" 
+                className="w-1/2 h-auto rounded-lg shadow-2xl"
+              />
+            </div>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
