@@ -133,7 +133,7 @@ export default function Features() {
             <h2 className="text-4xl font-bold text-white mb-8">We Are Here to Grow Your Business Exponentially</h2>
             
             {/* Feature Image */}
-            <div className="w-full max-w-4xl mx-auto mb-16">
+            <div className="w-full max-w-4xl mx-auto mb-16 flex justify-center">
               <img 
                 src="/public/feature.jpg"
                 alt="Business Growth" 
@@ -152,7 +152,7 @@ export default function Features() {
               <div className="bg-[#00B4D8] w-16 h-16 rounded-lg flex items-center justify-center mb-6">
                 <FaAward className="text-white text-3xl" />
               </div>
-              <h3 className="text-xl font-semibold mb-4">Best In Industry</h3>
+              <h3 className="text-xl font-semibold mb-4 text-black">Best In Industry</h3>
               <p className="text-gray-600">Clear Branding & Navigation – A clean, structured menu for services, about, blog, and contact.</p>
             </motion.div>
 
@@ -165,7 +165,7 @@ export default function Features() {
               <div className="bg-[#00B4D8] w-16 h-16 rounded-lg flex items-center justify-center mb-6">
                 <FaUsers className="text-white text-3xl" />
               </div>
-              <h3 className="text-xl font-semibold mb-4">Service Highlights</h3>
+              <h3 className="text-xl font-semibold mb-4 text-black">Service Highlights</h3>
               <p className="text-gray-600">Showcase core IT services (e.g., cybersecurity, cloud computing, software development).</p>
             </motion.div>
 
@@ -178,7 +178,7 @@ export default function Features() {
               <div className="bg-[#00B4D8] w-16 h-16 rounded-lg flex items-center justify-center mb-6">
                 <FaIndustry className="text-white text-3xl" />
               </div>
-              <h3 className="text-xl font-semibold mb-4">Industry-Specific Solutions</h3>
+              <h3 className="text-xl font-semibold mb-4 text-black">Industry-Specific Solutions</h3>
               <p className="text-gray-600">Tailor services for different industries (healthcare, finance, e-commerce, etc.).</p>
             </motion.div>
 
@@ -191,7 +191,7 @@ export default function Features() {
               <div className="bg-[#00B4D8] w-16 h-16 rounded-lg flex items-center justify-center mb-6">
                 <FaHeadset className="text-white text-3xl" />
               </div>
-              <h3 className="text-xl font-semibold mb-4">24/7 Support</h3>
+              <h3 className="text-xl font-semibold mb-4 text-black">24/7 Support</h3>
               <p className="text-gray-600">Reliable and always available support to assist you anytime.</p>
             </motion.div>
           </div>
