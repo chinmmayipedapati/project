@@ -1,0 +1,478 @@
+.featurePage {
+  font-family: 'Inter', sans-serif;
+  color: #333;
+}
+
+/* Hero Section */
+.heroSection {
+  position: relative;
+  height: 300px;
+  background-image: url('/carousel-2.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.heroOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(11, 27, 43, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heroContent {
+  text-align: center;
+}
+
+.heroContent h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.breadcrumb {
+  font-size: 1.1rem;
+}
+
+.breadcrumb span {
+  color: #007bff;
+}
+
+/* Main Content */
+.mainContent {
+  padding: 80px 0;
+  background-color: #f8f9fa;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.sectionHeader {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.sectionHeader h5 {
+  color: #007bff;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.sectionHeader h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+/* Features Grid */
+.featuresGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.featureCard {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.featureCard:hover {
+  transform: translateY(-5px);
+}
+
+.featureIcon {
+  font-size: 2.5rem;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.featureCard h4 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #1f2937;
+}
+
+.featureCard p {
+  color: #6b7280;
+  line-height: 1.6;
+}
+
+/* Footer */
+.footer {
+  background-color: #0B1B2B;
+  color: white;
+  padding: 80px 0 20px;
+}
+
+.footerContent {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.footerAbout h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.footerAbout p {
+  color: #9ca3af;
+  line-height: 1.6;
+}
+
+.footerLinks {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.footerSection h4 {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.footerSection h4::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 40px;
+  height: 2px;
+  background-color: #007bff;
+}
+
+.footerSection ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footerSection ul li {
+  margin-bottom: 10px;
+}
+
+.footerSection ul li a {
+  color: #9ca3af;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footerSection ul li a:hover {
+  color: #007bff;
+}
+
+.footerSection p {
+  color: #9ca3af;
+  margin-bottom: 10px;
+}
+
+.footerBottom {
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid #374151;
+}
+
+.footerBottom p {
+  color: #9ca3af;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .heroContent h1 {
+    font-size: 2rem;
+  }
+
+  .sectionHeader h1 {
+    font-size: 2rem;
+  }
+
+  .footerContent {
+    grid-template-columns: 1fr;
+  }
+
+  .footerLinks {
+    grid-template-columns: 1fr;
+  }
+} 
+
+
+.pageHeader {
+  padding: 4rem 0; /* Adjusted padding */
+  background-color: #007bff; /* Placeholder: NuiTech uses a background image with a dark overlay */
+  /* Example for background image:
+  background-image: url('/your-image-path/page-header-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  */
+  position: relative;
+  color: white;
+}
+
+.pageHeaderOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(11, 27, 43, 0.7); /* Simulates NuiTech's dark overlay */
+}
+
+.pageHeaderTextContainer {
+  text-align: center;
+  position: relative;
+  z-index: 1; /* Ensures text is above the overlay */
+}
+
+.pageHeaderTitle {
+  font-size: 3rem; /* Adjusted to match NuiTech's "Features" title */
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.breadcrumb {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.breadcrumbItem a,
+.breadcrumbItem span { /* span for non-link items like separators */
+  color: #e9ecef; /* Light color for breadcrumb links */
+  text-decoration: none;
+}
+
+.breadcrumbItem a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.breadcrumbItem + .breadcrumbItem::before {
+  content: "/";
+  padding: 0 0.5rem;
+  color: #ced4da; /* Separator color */
+}
+
+.breadcrumbItemActive {
+  color: #ffffff !important; /* Active breadcrumb item */
+  font-weight: 500;
+}
+
+.titleSection {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.subHeading {
+  color: #F67F00; /* NuiTech orange accent */
+  text-transform: uppercase;
+  font-weight: 600; /* Bold for emphasis */
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.mainHeading {
+  margin: 0 auto 30px auto; /* Centered and margin bottom */
+  font-size: 2.5rem; /* NuiTech main title size */
+  font-weight: 700;
+  color: #1A202C; /* Dark heading color */
+  max-width: 800px; /* Constrain width for better readability */
+}
+
+.featuresListSection {
+  padding: 50px 20px;
+  background-color: #f8f9fa; /* Light gray background for this section */
+}
+
+.featuresContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem; /* Space between feature items */
+  justify-content: center;
+}
+
+.featureItem {
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.5rem; /* 8px */
+  padding: 2rem 1.5rem; /* More padding */
+  text-align: center;
+  flex-basis: calc(25% - 1.5rem); /* For 4 items, accounting for 2rem gap */
+  min-width: 260px; /* Minimum width */
+  box-shadow: 0 0.25rem 0.75rem rgba(0,0,0,0.07); /* Softer shadow */
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.featureItem:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0.5rem 1.5rem rgba(0,0,0,0.1);
+}
+
+.featureItem h4 {
+  font-size: 1.2rem;
+  color: #0B1B2B; /* Dark blue, from NuiTech palette */
+  margin-top: 0.5rem; /* Space for icon if added above */
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+}
+
+.featureItem p {
+  font-size: 0.95rem;
+  color: #4A5568; /* Softer text color */
+  line-height: 1.6;
+}
+
+/* Responsive adjustments for feature items */
+@media (max-width: 1199px) { /* lg */
+  .featureItem {
+    flex-basis: calc(33.333% - 1.33rem);
+  }
+}
+@media (max-width: 991px) { /* md */
+  .featureItem {
+    flex-basis: calc(50% - 1rem);
+  }
+}
+@media (max-width: 767px) { /* sm */
+  .featureItem {
+    flex-basis: 100%;
+  }
+  .mainHeading {
+    font-size: 2rem;
+  }
+  .pageHeaderTitle {
+    font-size: 2.5rem;
+  }
+}
+
+
+/* Footer Styles */
+.footerSection {
+  background-color: #0B1B2B; /* NuiTech dark blue footer */
+  color: #ced4da; /* Light text for readability */
+  padding: 3.5rem 1rem 1.5rem; /* py-5 equivalent, bottom reduced */
+  margin-top: 3rem;
+}
+
+.footerContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem; /* Gap between footer columns */
+}
+
+.footerColumn {
+  flex: 1 1 220px; /* Flexible columns, base width 220px */
+  margin-bottom: 1.5rem; /* Space below each column on wrap */
+}
+
+.footerColumn h3 {
+  font-size: 1.15rem; /* Slightly larger */
+  color: #ffffff;
+  margin-bottom: 1.25rem; /* More space below title */
+  font-weight: 600;
+  position: relative;
+  padding-bottom: 0.75rem; /* Space for underline */
+}
+
+.footerColumn h3::after { /* Underline for footer titles */
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 40px; /* Underline width */
+  height: 2px;
+  background-color: #F67F00; /* NuiTech orange accent */
+}
+
+.footerColumn p,
+.footerColumn ul li a,
+.footerColumn ul li span { /* For non-linked list items if any */
+  color: #adb5bd; /* Lighter gray for text and links */
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
+
+.footerColumn ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footerColumn ul li {
+  margin-bottom: 0.6rem; /* Space between list items */
+}
+
+.footerColumn ul li a {
+  text-decoration: none;
+  transition: color 0.2s ease, padding-left 0.2s ease;
+}
+
+.footerColumn ul li a:hover {
+  color: #F67F00; /* Orange hover */
+  padding-left: 4px; /* Slight indent on hover */
+}
+
+.footerAddress p {
+  margin-bottom: 0.5rem;
+}
+.footerAddress a { /* Ensure tel and mailto links inherit color */
+ color: #adb5bd;
+ text-decoration: none;
+}
+.footerAddress a:hover {
+  color: #F67F00;
+  text-decoration: underline;
+}
+
+.footerBottom {
+  text-align: center;
+  padding-top: 1.5rem;
+  margin-top: 2rem;
+  border-top: 1px solid #2c3e50; /* Darker border for separation */
+}
+
+.footerBottom p {
+  color: #adb5bd;
+  font-size: 0.875rem;
+  margin: 0;
+}
+
+.footerBottom a {
+  color: #F67F00; /* Orange for the "Nuitech" link */
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footerBottom a:hover {
+  text-decoration: underline;
+}
+
+/* General container to constrain width and center content */
+.container {
+  width: 100%;
+  max-width: 1200px; /* Standard max width */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem; /* Default horizontal padding */
+  padding-right: 1rem;
+} 

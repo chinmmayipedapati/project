@@ -11,6 +11,7 @@ const routes: Route[] = [
   { path: "contact", file: "contact/Contact.tsx" },
   { path: "blog", file: "blog/blog.tsx" },
   { path: "pricing", file: "pricing/pricing.tsx" },
+  { path: "features", file: "features/features.tsx" },
 ];
 
 export default routes;
