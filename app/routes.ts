@@ -12,7 +12,8 @@ const routes: Route[] = [
   { path: "blog", file: "blog/blog.tsx" },
   { path: "pricing", file: "pricing/pricing.tsx" },
   { path: "features", file: "features/features.tsx" },
-  { path: "quote", file: "quote/quote.tsx" },
+  { path: "quote", file: "quote/quote.tsx"},
+  { path: "life-with-nuitech", file: "life-with-nuitech/life-with-nuitech.tsx"}
 ];
 
 export default routes;
