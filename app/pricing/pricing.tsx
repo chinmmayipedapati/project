@@ -1,7 +1,7 @@
 'use client';
 import React, { useState, useEffect } from 'react';
 import styles from './page.module.css';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router';
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { MdKeyboardArrowRight, MdLocationOn, MdEmail, MdPhone } from "react-icons/md";
 

@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router';
 import { FaLinkedin, FaTwitter, FaEnvelope } from 'react-icons/fa';
 import { useState } from 'react';
 
