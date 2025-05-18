@@ -11,7 +11,6 @@ export function meta() {
     { name: "description", content: "Learn about NuiTech's mission, values, and the team behind our innovative IT solutions." },
   ];
 }
-
 export default function About() {
   const [isPagesDropdownOpen, setIsPagesDropdownOpen] = useState(false); 
 
