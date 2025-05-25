@@ -1,3 +1,5 @@
+'use client';
+
 import { motion } from 'framer-motion';
 import { Link } from 'react-router';
 import { useState } from 'react';
@@ -66,6 +68,7 @@ export default function TeamPage() {
         email: "rahul@nuitech.com"
       }
     },
+    
     {
       name: "Anjali Patel",
       role: "Project Manager",
