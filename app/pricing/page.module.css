@@ -138,12 +138,6 @@
 }
 
 /* Show dropdown when isPagesDropdownOpen is true (controlled by JS) */
-.dropdownContainer button + div[class*="dropdownMenu"] { /* Targets the dropdownMenu when button is followed by it */
-  /* This is a bit of a trick if we can't directly toggle a class on dropdownMenu via JS state in this context */
-  /* A more robust way is to have a class on dropdownMenu itself toggled by JS */
-}
-
-/* Alternative: if the dropdownMenu has a class like .open when active */
 .dropdownMenu.open, /* Or a class name you set based on isPagesDropdownOpen */
 .dropdownContainer:hover .dropdownMenu { /* Show on hover for fallback/testing if JS state isn't working */
   opacity: 1;
